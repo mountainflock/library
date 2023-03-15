@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="library.js" defer></script>
+    <title>Library</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="book-list">
+      </div>
+      <button id="new-book-button">NEW BOOK</button>
+      <div id="form-main" class="form-invisible">
+        <div class="forms-section">
+          <div class="form">
+            <form action="">
+              <label for="title">Title</label>
+              <input required
+                id="title"
+                name="title"
+                type="text"
+              >
+            </form>
+          </div>
+          <div class="form">
+              <form action="">
+                <label for="author">Author</label>
+                <input required
+                  id="author"
+                  name="author"
+                  type="text"
+                >
+              </form>
+          </div>
+          <div class="form">
+              <form action="">
+                <label for="pages">Pages</label>
+                <input required
+                    id="pages"
+                    name="pages"
+                    type="number"
+                  >
+              </form>
+          </div>
+          <div class="form">
+          <form action="" >
+            <label for="read">read</label>
+            <input type="radio" name = "read" id="read" checked>
+            <label for="unread">unread</label>
+            <input type="radio" name = "read">
+          </form>
+          </div>
+        </div>
+        <div class="button-section"><button type="submit" id="submit-button" >SUBMIT</button></div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
