@@ -119,15 +119,15 @@ input {
   align-items: center;
 }
 
-.form-invisible {
-  display: none;
-}
-
-.form-visible {
+.form-main {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
   gap: 20px;
+}
+
+.form-invisible {
+  display: none;
 }
 
 .form {
@@ -139,17 +139,17 @@ input {
   border: 1px;
 }
 
-#change-status-button {
+.change-status-button {
   background-color: rgba(249, 238, 232, 0.6);
   width: 100px;
   height: 25px;
 }
 
-#change-status-button:hover {
+.change-status-button:hover {
   background-color: rgba(252, 230, 219, 0.6);
 }
 
-#change-status-button:active {
+.change-status-button:active {
   background-color: rgba(255, 225, 210, 0.6);
 }
 
